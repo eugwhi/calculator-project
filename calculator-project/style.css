@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-image: url(https://media.istockphoto.com/id/1304895375/vector/hand-drawn-seamless-pattern-of-business.jpg?s=612x612&w=0&k=20&c=0ZRxTOB_a6rOWL00i7cOgAv1Du9wkbE-2DQzomYEDag=);
+}
+
+input {
+  width: 396px;
+  height: 200px;
+  background-color: #1c1c1c;
+  color: white;
+  font-size: 40px;
+  border: none;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.button-container {
+  height: 400px;
+  width: 400px;
+  background: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+#buttton-yellow {
+  background: #ff9500;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  transition: all 0.35s ease;
+}
+
+#buttton-yellow:hover {
+  background-color: #fba329;
+  transform: scale(0.9);
+}
+
+#buttton-grey {
+  background: #505050;
+  font-size: 30px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 5px;
+  transition: all 0.35s ease;
+}
+
+#buttton-grey:hover {
+  background-color: #646363;
+  transform: scale(0.9);
+}
+
+#zero {
+  background: #505050;
+  color: white;
+  font-size: 30px;
+  border: none;
+  border-radius: 50px;
+  width: 130px;
+  height: 60px;
+  margin-left: 5px;
+  transition: all 0.35s ease;
+}
+
+#zero:hover {
+  background-color: #646363;
+  transform: scale(0.9);
+}
+
+.result {
+  display: flex;
+  margin-top: 5px;
+}
+
+.equal {
+  background: #d4d4d2;
+  color: black;
+  font-size: 30px;
+  border: none;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  margin-left: 5px;
+  transition: all 0.35s ease;
+}
+
+.equal:hover {
+  background: #f8f8cd;
+  transform: scale(0.9);
+}
+
+.reset {
+  background: #d4d4d2;
+  color: black;
+  font-size: 30px;
+  border: none;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  margin-left: 5px;
+  transition: all 0.35s ease;
+}
+
+.reset:hover {
+  background: #f6cea6;
+  transform: scale(0.9);
+}
